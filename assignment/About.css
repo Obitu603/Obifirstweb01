@@ -1,0 +1,19 @@
+section#about {
+    margin-top: 0px;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(2,0,36,1) 0%, rgba(121,71,9,1) 100%, rgba(0,203,249,1) 100%, rgba(1,175,230,1) 100%, rgba(2,162,222,0.6615021008403361) 100%);
+    /* background-color: #fff; */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #ffff;
+    font-family: Arial, sans-serif;
+  }
+ .maincontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  p{
+    line-height: 1.8;
+  }

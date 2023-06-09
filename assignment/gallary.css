@@ -1,0 +1,101 @@
+.Container{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-top: -10px;
+    height:auto ;
+}
+.hone{
+    font-size: 30px;
+    color: rgb(249, 250, 251);
+    text-align: center;
+    font-family: 'Trebuchet MS', ;
+}
+.htwo{
+    color: rgb(32, 33, 34);
+}
+body{
+    padding:0;
+    margin: 0;
+    background-color: #ffff;
+}
+.hone h1{
+    margin-top: 50px;
+    margin-left: 510px;
+    font-size: 40px;
+    font-family: 'Karla',sans-serif;
+    font-weight: lighter;
+}
+.frame{
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* display: block; */
+}
+@keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 50px;}
+    20%{left: 100px;}
+    30%{left: 300px;}
+    40%{left: 600px;}
+    50%{left: 1000px;}
+    60%{left: 1200px;}
+    70%{left: 2500px;}
+    80%{left: 3000px;}
+    90%{left: 0px;}
+}
+.slideimage{
+    width: 3000px;
+    height: 2000px;
+    display: flex; 
+    margin: 0 0 0 -2400px; 
+    position: relative; 
+    animation:slide_animation 25s linear infinite; 
+}
+.img-container{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    
+} 
+.img-container img {
+    width: 100%;
+    height: 300px;
+    
+}
+.moreshoes{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr ) ;
+    text-align: center;
+    gap: 1em;
+    margin-left: -16px;
+}
+.malewear img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.malewear img:hover{
+    transform: scale(0.9);
+    z-index: 2;
+}
+.femalewear img:hover{
+    transform: scale(0.9);
+    z-index: 2;
+}
+.femalewear img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.womenwear{
+    display: flex;
+    text-align: center;
+    gap: 1em;
+    margin-left: 30px;   
+}
